@@ -31,9 +31,10 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
+    <version>7.5</version>
     <scope>compile</scope>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
@@ -126,11 +127,8 @@
         </goals>
      </execution>
   </executions>
-</plugin>
-    
-
-        
-           </plugins>
+</plugin>   
+     </plugins>
     </pluginManagement>
   </build>
 </project>
