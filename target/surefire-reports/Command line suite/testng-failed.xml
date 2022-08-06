@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="medical.TEAm.testTest">
+        <methods>
+          <include name="validate_reading_exceldata"/>
+          <include name="open_browser"/>
+          <include name="Screenshot"/>
+          <include name="Testdata_provider"/>
+          <include name="validating_login"/>
+          <include name="validating_signin"/>
+        </methods>
+      </class> <!-- medical.TEAm.testTest -->
+      <class name="medical.TEAm.Test20822">
+        <methods>
+          <include name="checking" invocation-numbers="0"/>
+          <include name="open_browser"/>
+          <include name="Screenshot"/>
+        </methods>
+      </class> <!-- medical.TEAm.Test20822 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
